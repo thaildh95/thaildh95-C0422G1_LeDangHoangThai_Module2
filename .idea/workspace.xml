@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2c9be0-613c-424d-8e3f-137a12003add" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss3_Array/thuc_hanh/min.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3_Array/bai_tap/Merge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss2_Array_loop/thuchanh/menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss2_Array_loop/thuchanh/menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss3_Array/thuc_hanh/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss3_Array/thuc_hanh/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3_Array/thuc_hanh/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3_Array/thuc_hanh/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Application.max_in_2d">
+  <component name="RunManager" selected="Application.Merge">
+    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3_Array.bai_tap.Merge" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss3_Array.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss3_Array.thuc_hanh.Test" />
       <module name="module_2" />
@@ -97,26 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss2_Array_loop.thuchanh.menu" />
-      <module name="module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss2_Array_loop.thuchanh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Merge" />
         <item itemvalue="Application.max_in_2d" />
         <item itemvalue="Application.add" />
         <item itemvalue="Application.max" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.menu" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +128,7 @@
       <workItem from="1654565285761" duration="15832000" />
       <workItem from="1654658801584" duration="17158000" />
       <workItem from="1654691575102" duration="608000" />
-      <workItem from="1654737877121" duration="13342000" />
+      <workItem from="1654737877121" duration="14289000" />
     </task>
     <servers />
   </component>
