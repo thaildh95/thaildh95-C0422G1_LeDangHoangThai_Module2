@@ -12,6 +12,9 @@ public class Shape {
         this.filled = filled;
     }
 
+    public Shape(int i, String red) {
+    }
+
     public String getColor() {
         return color;
     }
