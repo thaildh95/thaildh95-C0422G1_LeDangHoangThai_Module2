@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2c9be0-613c-424d-8e3f-137a12003add" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Crud/test/studenManagerment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5_static/bai_tap/student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_inheritance/bai_tap/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_inheritance/bai_tap/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_inheritance/bai_tap/Point3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6_inheritance/bai_tap/RunXYZ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/bai_tap/Resize/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/bai_tap/Resize/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/bai_tap/Resize/Resizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/bai_tap/Resize/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/bai_tap/Resize/TestShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/thuc_hanh/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/thuc_hanh/Edible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/thuc_hanh/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/thuc_hanh/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/thuc_hanh/comparator/CircleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7_abtraction_interface/thuc_hanh/comparator/CircleComparator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s11_dsa/bai_tap/Convert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s11_dsa/bai_tap/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s11_dsa/bai_tap/Reverse1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/s11_dsa/bai_tap/Reverse2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss4_OOP/thuc_hanh/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss4_OOP/thuc_hanh/Run_Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4_OOP/thuc_hanh/Rectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4_OOP/thuc_hanh/Run_Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/module_2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss7_abtraction_interface/bai_tap/Resize/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss7_abtraction_interface/bai_tap/Resize/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_tap_ve_nha/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_tap_ve_nha/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_tap_ve_nha/service/impl/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_tap_ve_nha/service/impl/CarService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,17 +45,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Application.TestShape">
-    <configuration name="Beautiful" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Crud.test.Beautiful" />
+  <component name="RunManager" selected="Application.Palindrome">
+    <configuration name="Convert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s11_dsa.bai_tap.Convert" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Crud.test.*" />
+          <option name="PATTERN" value="s11_dsa.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4_OOP.thuc_hanh.RunRectangle" />
+    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_array_list.thuc_hanh.MyList" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4_OOP.thuc_hanh.*" />
+          <option name="PATTERN" value="ss10_array_list.thuc_hanh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunXYZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6_inheritance.bai_tap.RunXYZ" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s11_dsa.bai_tap.Palindrome" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6_inheritance.bai_tap.*" />
+          <option name="PATTERN" value="s11_dsa.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_abtraction_interface.thuc_hanh.compare.TestCircle" />
+    <configuration name="Reverse1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s11_dsa.bai_tap.Reverse1" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7_abtraction_interface.thuc_hanh.compare.*" />
+          <option name="PATTERN" value="s11_dsa.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7_abtraction_interface.bai_tap.Resize.TestShape" />
+    <configuration name="Reverse2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s11_dsa.bai_tap.Reverse2" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7_abtraction_interface.bai_tap.Resize.*" />
+          <option name="PATTERN" value="s11_dsa.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestShape" />
-        <item itemvalue="Application.Beautiful" />
-        <item itemvalue="Application.RunRectangle" />
-        <item itemvalue="Application.TestCircle" />
-        <item itemvalue="Application.RunXYZ" />
+        <item itemvalue="Application.Palindrome" />
+        <item itemvalue="Application.Convert" />
+        <item itemvalue="Application.Reverse2" />
+        <item itemvalue="Application.Reverse1" />
+        <item itemvalue="Application.MyList" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +148,11 @@
       <workItem from="1655256688648" duration="11836000" />
       <workItem from="1655286139102" duration="2270000" />
       <workItem from="1655292003238" duration="2625000" />
+      <workItem from="1655361591003" duration="2917000" />
+      <workItem from="1655392365145" duration="1093000" />
+      <workItem from="1655437366587" duration="4379000" />
+      <workItem from="1655642413746" duration="6363000" />
+      <workItem from="1655687441876" duration="7815000" />
     </task>
     <servers />
   </component>
