@@ -24,10 +24,12 @@ public class InsertionSort {
         for (int i = 0; i < array.length; i++) {
             x = array[i];
             position = i;
+            System.out.println("lay gia tri" +" "+array[i]+ " "+"de so sanh ");
             while (position>0 && x<array[position-1]){
                 array[position]=array[position-1];
                 position--;
             }
+            System.out.println("doi vi tri lan thu " +i + Arrays.toString(array));
             array[position]=x;
         }
 
