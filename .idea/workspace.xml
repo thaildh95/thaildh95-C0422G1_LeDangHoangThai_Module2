@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2c9be0-613c-424d-8e3f-137a12003add" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/s11_dsa/bai_tap/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/s11_dsa/bai_tap/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/s11_dsa/bai_tap/Reverse1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/s11_dsa/bai_tap/Reverse2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_array_list/bai_tap/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_array_list/bai_tap/controller/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_array_list/bai_tap/model/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_array_list/bai_tap/s12_java_collection_framework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_array_list/bai_tap/service/implement/ComputerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_array_list/bai_tap/service/implement/IComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_array_list/bai_tap/service/implement/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_search/bai_tap/StringAscending.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_search/thuc_hanh/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/module_2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss7_abtraction_interface/bai_tap/Resize/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss7_abtraction_interface/bai_tap/Resize/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_tap_ve_nha/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_tap_ve_nha/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bai_tap_ve_nha/service/impl/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_tap_ve_nha/service/impl/CarService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/bai_tap_ve_nha/service/IService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/bai_tap_ve_nha/service/Icar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_tap_ve_nha/service/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_tap_ve_nha/service/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bai_tap_ve_nha/service/Icar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bai_tap_ve_nha/service/Icar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +58,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Palindrome">
-    <configuration name="Convert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s11_dsa.bai_tap.Convert" />
+  <component name="RunManager" selected="Application.StringAscending">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_search.thuc_hanh.BinarySearch" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="s11_dsa.bai_tap.*" />
+          <option name="PATTERN" value="ss11_search.thuc_hanh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10_array_list.thuc_hanh.MyList" />
+    <configuration name="Convert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="s11_dsa.bai_tap.Convert" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss10_array_list.thuc_hanh.*" />
+          <option name="PATTERN" value="s11_dsa.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s11_dsa.bai_tap.Reverse1" />
+    <configuration name="StringAscending" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_search.bai_tap.StringAscending" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="s11_dsa.bai_tap.*" />
+          <option name="PATTERN" value="ss11_search.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,26 +111,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="s11_dsa.bai_tap.Reverse2" />
+    <configuration name="s12_java_collection_framework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_array_list.bai_tap.s12_java_collection_framework" />
       <module name="module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="s11_dsa.bai_tap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringAscending" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.s12_java_collection_framework" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Convert" />
-        <item itemvalue="Application.Reverse2" />
-        <item itemvalue="Application.Reverse1" />
-        <item itemvalue="Application.MyList" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +152,10 @@
       <workItem from="1655437366587" duration="4379000" />
       <workItem from="1655642413746" duration="6363000" />
       <workItem from="1655687441876" duration="7815000" />
+      <workItem from="1655784882511" duration="1254000" />
+      <workItem from="1655802242798" duration="2515000" />
+      <workItem from="1655868071357" duration="12878000" />
+      <workItem from="1655945429860" duration="920000" />
     </task>
     <servers />
   </component>
