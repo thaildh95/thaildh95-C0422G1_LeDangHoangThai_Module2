@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class TestTriangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        boolean flag;
         Triangle triangle = new Triangle();
         do {
     try{
@@ -17,19 +16,18 @@ public class TestTriangle {
         double c = Double.parseDouble(scanner.nextLine());
         System.out.println("la tam giac");
         triangle.check(a,b,c);
-
-        flag = true;
+        break;
      }
     catch (IllegalTriangleException e){
         System.out.println(e.getMessage());
-        flag = false;
+
     }catch (NumberFormatException e){
         System.out.println("nhap so vao thang ngu");
         System.out.println("---------------------------");
-        flag = false;
+
     }
         }
-    while (!flag);
+    while (true);
 
         System.out.println(triangle);
 
