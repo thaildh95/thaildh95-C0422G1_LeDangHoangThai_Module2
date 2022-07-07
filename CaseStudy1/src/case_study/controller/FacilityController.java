@@ -1,6 +1,7 @@
 package case_study.controller;
 
 import case_study.service.impl.HouseServiceImpl;
+import case_study.service.impl.RoomServiceImpl;
 import case_study.service.impl.VillaServiceImpl;
 
 import java.util.Scanner;
@@ -11,6 +12,7 @@ public class FacilityController {
         Scanner scanner = new Scanner(System.in);
         VillaServiceImpl villaServiceImpl = new VillaServiceImpl();
         HouseServiceImpl houseServiceImpl = new HouseServiceImpl();
+        RoomServiceImpl roomServiceImpl = new RoomServiceImpl();
         boolean flag = true;
         do {
 
@@ -20,12 +22,15 @@ public class FacilityController {
                     "\n 3. Display list facility maintenance" +
                     "\n 4. Return main menu");
             System.out.println("Chọn chức năng");
-            String chosse = scanner.nextLine();
-            switch (chosse) {
+            String choose = scanner.nextLine();
+            switch (choose) {
                 case "1":
                     villaServiceImpl.displaylistfacility();
                     houseServiceImpl.displaylistfacility();
+                    roomServiceImpl.displaylistfacility();
+
                     break;
+
                 case "2":
                     String choice;
                     do {
@@ -36,7 +41,7 @@ public class FacilityController {
                                 "\n 3. Room" +
                                 "\n 4. Return Menu");
                         choice = scanner.nextLine();
-                        switch (choice){
+                        switch (choice) {
                             case "1":
                                 System.out.println("Thêm mới villa");
                                 villaServiceImpl.addNewFacility();
@@ -46,14 +51,15 @@ public class FacilityController {
                                 houseServiceImpl.addNewFacility();
                                 break;
                             case "3":
-                                System.out.println("Display list Villa maintenance");
+                                System.out.println("thêm mới Room");
+                                roomServiceImpl.addNewFacility();
                                 break;
                             case "4":
                                 System.out.println("Return main menu");
                                 break;
-                            
+
                         }
-                    }while (!choice.equals("4"));
+                    } while (!choice.equals("4"));
                     break;
             }
         } while (!flag);

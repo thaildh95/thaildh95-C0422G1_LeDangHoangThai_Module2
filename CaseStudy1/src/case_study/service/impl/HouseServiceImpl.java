@@ -1,8 +1,12 @@
 package case_study.service.impl;
 
+
 import case_study.facility.House;
+
 import case_study.service.HouseService;
+
 import case_study.util.read_and_write.ReadAndWriteForHouse;
+
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -60,14 +64,14 @@ public class HouseServiceImpl implements HouseService {
             }
         } while (choiceTypeRent.equals("4"));
 
-        System.out.println("nhap loai phong ");
+        System.out.println("nhap loai phong");
         String typeRoom = scanner.nextLine();
         System.out.println("nhap so tang");
         int floor = Integer.parseInt(scanner.nextLine());
         Map<House, Integer> houseMap = new LinkedHashMap<>();
         houseMap.put(new House(serVice, useArea, rentPrice, maximumPeople, typeRent, typeRoom, floor), 0);
-       ReadAndWriteForHouse.writeFile(houseMap,true);
-
+        ReadAndWriteForHouse.writeFile(houseMap, true);
+//        String serviceName, double useArea, double rentPrice, int maximumPeople, String rentType, String typeRoom, int floor) {
     }
 
     @Override

@@ -20,6 +20,7 @@ public class  ReadAndWriteForEmployee {
             bufferedReader = new BufferedReader(fileReader);
             while ((string = bufferedReader.readLine()) != null) {
                 arr = string.split(",");
+//
                 employeeList.add(new Employee(arr[0], LocalDate.parse(arr[1]), arr[2], arr[3], arr[4], arr[5], arr[6], arr[7], arr[8], Integer.parseInt(arr[9])));
             }
             bufferedReader.close();

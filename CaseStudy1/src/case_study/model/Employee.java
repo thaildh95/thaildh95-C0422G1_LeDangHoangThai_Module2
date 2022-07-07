@@ -11,8 +11,6 @@ public class Employee extends Person{
     public Employee() {
     }
 
-
-
     public Employee(String name, LocalDate dayOfBirth, String gender, String id, String phone, String email,
                     String employeeCode, String level, String position, int salary) {
         super(name, dayOfBirth, gender, id, phone, email);

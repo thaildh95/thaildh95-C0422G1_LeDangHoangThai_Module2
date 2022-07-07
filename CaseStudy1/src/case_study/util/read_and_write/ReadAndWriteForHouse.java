@@ -41,7 +41,8 @@ public class ReadAndWriteForHouse{
             bufferedWriter = new BufferedWriter(fileWriter);
             Set<House> houseSet = houseMap.keySet();
             for (House v: houseSet) {
-                System.out.println(v.getHouseInfo());
+               bufferedWriter.write(v.getHouseInfo()+ ","+houseMap.get(v));
+               bufferedWriter.newLine();
 
             }
             bufferedWriter.close();

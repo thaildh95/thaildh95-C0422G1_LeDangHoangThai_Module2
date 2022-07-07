@@ -22,7 +22,7 @@ public class ReadAndWriteForVilla {
             while ((string = bufferedReader.readLine()) != null) {
                 arr = string.split(",");
                 villaMap.put(new Villa(arr[0], Double.parseDouble(arr[1]), Double.parseDouble(arr[2]), Integer.parseInt(arr[3]), arr[4],
-                        arr[5], Double.parseDouble(arr[6]), Integer.parseInt(arr[7])),Integer.parseInt(arr[9]));
+                        arr[5], Double.parseDouble(arr[6]), Integer.parseInt(arr[7])),0);
 //                String serviceName, double useArea, double rentPrice, int maximumPeople, String rentType, String typeRoom, double poolArea, int floor) {
             }
             bufferedReader.close();
@@ -32,7 +32,7 @@ public class ReadAndWriteForVilla {
         return villaMap;
     }
 
-    public static  void writeFile(Map<Villa,Integer> villaMap, boolean append) {
+    public static  void writeFile(Map<Villa,Integer> villaMap ,boolean append) {
         File file = new File("src/case_study/data/villa_data.csv");
         FileWriter fileWriter;
         BufferedWriter bufferedWriter;
@@ -41,7 +41,8 @@ public class ReadAndWriteForVilla {
             bufferedWriter = new BufferedWriter(fileWriter);
             Set<Villa> villaSet = villaMap.keySet();
             for (Villa v: villaSet) {
-                System.out.println(v.getVillaInfo());
+               bufferedWriter.write(v.getVillaInfo()+","+villaMap.get(v));
+               bufferedWriter.newLine();
                 
             }
             bufferedWriter.close();
